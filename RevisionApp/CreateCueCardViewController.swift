@@ -26,9 +26,16 @@ class CreateCueCardViewController: UIViewController {
         
         //to do: if both question and answer buttons are populated
         
+        
+        
         //store question pair
         
+        
+        
         //then clear text boxes
+        
+        
+        
         
         //dismiss keyboard
         if answerTextView.isFirstResponder(){
