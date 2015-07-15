@@ -4,7 +4,7 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
     </dependencies>
     <scenes>
-        <!--Insert question-->
+        <!--Create cue card-->
         <scene sceneID="hNz-n2-bh7">
             <objects>
                 <viewController id="9pv-A4-QxB" customClass="CreateCueCardViewController" customModule="RevisionApp" customModuleProvider="target" sceneMemberID="viewController">
@@ -53,7 +53,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Insert question" image="first" id="acW-dT-cKf"/>
+                    <tabBarItem key="tabBarItem" title="Create cue card" image="first" id="acW-dT-cKf"/>
                     <connections>
                         <outlet property="answerTextView" destination="9YP-Fq-DrH" id="Zrh-lT-624"/>
                         <outlet property="questionTextView" destination="u4X-mj-tjB" id="E9M-W7-Y60"/>
@@ -63,7 +63,7 @@
             </objects>
             <point key="canvasLocation" x="750" y="-320"/>
         </scene>
-        <!--View Questions-->
+        <!--View Cue Cards-->
         <scene sceneID="wg7-f3-ORb">
             <objects>
                 <viewController id="8rJ-Kc-sve" customClass="ReadCueCardViewController" customModule="RevisionApp" customModuleProvider="target" sceneMemberID="viewController">
@@ -161,7 +161,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="View Questions" image="second" id="cPa-gy-q4n"/>
+                    <tabBarItem key="tabBarItem" title="View Cue Cards" image="second" id="cPa-gy-q4n"/>
                     <connections>
                         <outlet property="answerTextView" destination="h8P-Xy-TYB" id="9MC-9D-uX2"/>
                         <outlet property="questionTextView" destination="tq9-pF-JgS" id="0pu-lf-xRm"/>
