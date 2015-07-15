@@ -8,8 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		BBA228131B56583900939E71 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBA228121B56583900939E71 /* AppDelegate.swift */; };
-		BBA228151B56583900939E71 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBA228141B56583900939E71 /* FirstViewController.swift */; };
-		BBA228171B56583900939E71 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBA228161B56583900939E71 /* SecondViewController.swift */; };
+		BBA228151B56583900939E71 /* CreateCueCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBA228141B56583900939E71 /* CreateCueCardViewController.swift */; };
+		BBA228171B56583900939E71 /* ReadCueCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBA228161B56583900939E71 /* ReadCueCardViewController.swift */; };
 		BBA2281A1B56583900939E71 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBA228181B56583900939E71 /* Main.storyboard */; };
 		BBA2281C1B56583A00939E71 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBA2281B1B56583A00939E71 /* Images.xcassets */; };
 		BBA2281F1B56583A00939E71 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BBA2281D1B56583A00939E71 /* LaunchScreen.xib */; };
@@ -30,8 +30,8 @@
 		BBA2280D1B56583900939E71 /* RevisionApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RevisionApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBA228111B56583900939E71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BBA228121B56583900939E71 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BBA228141B56583900939E71 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		BBA228161B56583900939E71 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		BBA228141B56583900939E71 /* CreateCueCardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateCueCardViewController.swift; sourceTree = "<group>"; };
+		BBA228161B56583900939E71 /* ReadCueCardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadCueCardViewController.swift; sourceTree = "<group>"; };
 		BBA228191B56583900939E71 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BBA2281B1B56583A00939E71 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		BBA2281E1B56583A00939E71 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -80,8 +80,8 @@
 			isa = PBXGroup;
 			children = (
 				BBA228121B56583900939E71 /* AppDelegate.swift */,
-				BBA228141B56583900939E71 /* FirstViewController.swift */,
-				BBA228161B56583900939E71 /* SecondViewController.swift */,
+				BBA228141B56583900939E71 /* CreateCueCardViewController.swift */,
+				BBA228161B56583900939E71 /* ReadCueCardViewController.swift */,
 				BBA228181B56583900939E71 /* Main.storyboard */,
 				BBA2281B1B56583A00939E71 /* Images.xcassets */,
 				BBA2281D1B56583A00939E71 /* LaunchScreen.xib */,
@@ -215,9 +215,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BBA228171B56583900939E71 /* SecondViewController.swift in Sources */,
+				BBA228171B56583900939E71 /* ReadCueCardViewController.swift in Sources */,
 				BBA228131B56583900939E71 /* AppDelegate.swift in Sources */,
-				BBA228151B56583900939E71 /* FirstViewController.swift in Sources */,
+				BBA228151B56583900939E71 /* CreateCueCardViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
