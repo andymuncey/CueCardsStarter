@@ -22,7 +22,9 @@ class CreateCueCardViewController: UIViewController {
 
     @IBOutlet weak var answerTextView: UITextView!
     @IBOutlet weak var questionTextView: UITextView!
-    @IBAction func addQuestionPressed(sender: AnyObject) {
+    
+
+    @IBAction func addQuestionPressed(_ sender: AnyObject) {
         
         //to do: if both question and answer buttons are populated
         
@@ -38,11 +40,11 @@ class CreateCueCardViewController: UIViewController {
         
         
         //dismiss keyboard
-        if answerTextView.isFirstResponder(){
+        if answerTextView.isFirstResponder{
             answerTextView.resignFirstResponder()
         }
         
-        if questionTextView.isFirstResponder(){
+        if questionTextView.isFirstResponder{
            questionTextView.resignFirstResponder()
         }
         

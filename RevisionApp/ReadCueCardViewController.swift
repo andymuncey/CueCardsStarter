@@ -20,7 +20,7 @@ class ReadCueCardViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-    @IBAction func revealAnswerPressed(sender: AnyObject) {
+    @IBAction func revealAnswerPressed(_ sender: AnyObject) {
         
         //show answer textView
         answerTextView.alpha = 1
@@ -29,31 +29,31 @@ class ReadCueCardViewController: UIViewController {
     @IBOutlet weak var questionTextView: UITextView!
     @IBOutlet weak var answerTextView: UITextView!
     
-    @IBAction func firstQuestionPressed(sender: AnyObject) {
+    @IBAction func firstQuestionPressed(_ sender: AnyObject) {
         
         //todo: get and display the first question
         hideAnswer()
     }
     
-    @IBAction func lastQuestionPressed(sender: AnyObject) {
+    @IBAction func lastQuestionPressed(_ sender: AnyObject) {
         
         //todo: get and display the last question
         hideAnswer()
     }
     
-    @IBAction func previousQuesstionPressed(sender: AnyObject) {
+    @IBAction func previousQuesstionPressed(_ sender: AnyObject) {
         
         //todo: get and display the next question
         hideAnswer()
     }
     
-    @IBAction func nextQuestionPressed(sender: AnyObject) {
+    @IBAction func nextQuestionPressed(_ sender: AnyObject) {
         
         //todo: get and display the next question
         hideAnswer()
     }
     
-    @IBAction func randomQuestionPressed(sender: AnyObject) {
+    @IBAction func randomQuestionPressed(_ sender: AnyObject) {
         
         //todo: get and display a newrandom question
         
